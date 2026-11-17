@@ -1,0 +1,33 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "v1",
+  "receipts": 50,
+  "invalid_outputs": 0,
+  "fields": {
+    "company": {
+      "count": 50,
+      "strict": 0.92,
+      "normalized": 0.92
+    },
+    "date": {
+      "count": 50,
+      "strict": 0.78,
+      "normalized": 0.78
+    },
+    "address": {
+      "count": 50,
+      "strict": 0.52,
+      "normalized": 0.92
+    },
+    "total": {
+      "count": 50,
+      "strict": 0.82,
+      "normalized": 1.0
+    }
+  },
+  "all_fields_correct_normalized": 0.68,
+  "mean_latency_s": 1.1489800000000003,
+  "input_tokens": 24260,
+  "output_tokens": 4554,
+  "seed": 7
+}
